@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation TestNG">
+<test name="Parameter anotation Test">
+
+<parameter name="Name" value="sweety"/>
+<parameter name="Username" value="sweetythakur208@"/>
+
+<classes>
+<class name="com.TestDataProviser.ParameterAnnotation"/>
+
+
+</classes>
+
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

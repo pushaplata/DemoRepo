@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Assertion seesion]">
+  <test thread-count="5" name="Test Diff testing feature (failed)">
+    <classes>
+      <class name="com.TestNGBasics.GoogleTitleTest">
+        <methods>
+          <include name="getTitle"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TestNGBasics.GoogleTitleTest -->
+      <class name="com.TestNGBasics.TestNgFeature">
+        <methods>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- com.TestNGBasics.TestNgFeature -->
+    </classes>
+  </test> <!-- Test Diff testing feature (failed) -->
+</suite> <!-- Failed suite [TestNG Assertion seesion] -->
